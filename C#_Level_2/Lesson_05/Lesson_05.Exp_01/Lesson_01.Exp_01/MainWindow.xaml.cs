@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Hello_WPF
+namespace Lesson_01.Exp_01
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,12 +23,6 @@ namespace Hello_WPF
         public MainWindow()
         {
             InitializeComponent();
-            MainGrid.MouseUp += Grid_MouseUp;
-        }
-
-        private void Grid_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            MessageBox.Show($"Координаты: {e.GetPosition(this)}");
         }
     }
 }

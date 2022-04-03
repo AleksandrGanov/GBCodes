@@ -6,18 +6,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Hello_WPF
+namespace Lesson_01.Exp_01
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {
-        private void Application_Startup(object sender, StartupEventArgs e)
-        {
-            var wnd = new MainWindow() { Title = "Hello WPF" };
-
-            wnd.Show();
-        }
     }
 }
